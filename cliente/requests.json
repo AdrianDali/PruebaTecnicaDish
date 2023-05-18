@@ -1,0 +1,53 @@
+http://127.0.0.1:8000/cliente/edit/
+
+{   
+    "cliente" : {
+            "nombreCliente": {
+                "nombre" : "Juan",
+                "apellido" : "Lopéz" 
+            },
+            "telefono" : 5555555555,
+            "edad" : 30
+        }
+        ,
+    "nuevo_cliente" : {
+        "nombreCliente": {
+            "nombre" : "Juan",
+            "apellido" : "Lopssséz" 
+            },
+            "telefono" : 5555555556,
+            "edad" : 30
+        }
+}
+
+
+http://127.0.0.1:8000/cliente/create/
+
+{   
+
+            "nombreCliente": {
+                "nombre" : "Juan",
+                "apellido" : "Lopéz" 
+            },
+            "telefono" : 5555555555,
+            "edad" : 30
+        
+}
+
+
+http://127.0.0.1:8000/cliente/get/
+
+{
+    "telefono" : 5555555555
+}
+
+http://127.0.0.1:8000/cliente/delete/
+
+{
+    "nombreCliente": {
+        "nombre" : "Juan",
+        "apellido" : "Lopéz" 
+    },
+    "telefono" : 5555555555,
+    "edad" : 30
+}
