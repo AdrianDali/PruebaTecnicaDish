@@ -1,0 +1,26 @@
+Prueba tecnica 
+
+La aplicacion cuenta con 4 EP para poder Crear,
+ Editar, Obtener y Eliminar Clientes, con validacion 
+ de cada uno de los datos, conectado a una base de datos MySQL, 
+La aplicacion se encuentra hecha con el paradigma de programacion orientada
+a objetos 
+
+
+ Los EndPoints son los siguientes 
+
+ http://127.0.0.1:8000/cliente/edit/
+ http://127.0.0.1:8000/cliente/create/
+ http://127.0.0.1:8000/cliente/get/
+ http://127.0.0.1:8000/cliente/delete/
+
+Adicional a esto cuenta con dos EndPoint para la documentacion swagger
+donde vienen los datos requeridos para consumir cada uno de los EndPoints
+con ejemplos 
+
+http://127.0.0.1:8000/swagger/
+http://127.0.0.1:8000/redoc/
+
+
+
+
